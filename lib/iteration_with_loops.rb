@@ -1,5 +1,5 @@
 def find_min_in_nested_arrays(src)
-  
+  low_temps = []
   day_index = 0
   while day_index < src.count do
     temp_index = 0
