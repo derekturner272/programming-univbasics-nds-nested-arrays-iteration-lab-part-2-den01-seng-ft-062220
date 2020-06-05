@@ -1,13 +1,15 @@
 def find_min_in_nested_arrays(src)
-   row_index = 0
-  while row_index < src.count do
-    element_index = 0
-    while element_index < src[row_index].count do
-      if src[row_index][element_index].even?
-        p src[row_index][element_index]
+   day_index = 0
+  while day_index < src.count do
+    temp_index = 0
+    dayly_low = 
+    while temp_index < src[day_index].count do
+      if src[day_index][temp_index].even?
+        p src[day_index][temp_index]
       end
-      element_index += 1
+      temp_index += 1
     end
-    row_index += 1
+    day_index += 1
   end
+  
 end
