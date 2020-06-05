@@ -10,7 +10,6 @@ def find_min_in_nested_arrays(src)
       end
       temp_index += 1
       low_temps.push(dayly_low)
-      
     end
     day_index += 1
   end
